@@ -1,0 +1,26 @@
+#topcont {
+    background: url("../img/pizzalogo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.head:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+#pompeo {
+    position: absolute;
+    left: 22px;
+    top: 40px;
+}
+.whisper {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+}
+.social {
+    position: absolute;
+    bottom: 12px;
+    background: transparent;
+    right: 15px;
+}
