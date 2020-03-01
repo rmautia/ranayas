@@ -3,6 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    padding: 40px;
 }
 .head:hover {
     text-decoration: underline;
@@ -11,17 +12,18 @@
 #pompeo {
     position: absolute;
     right: 22px;
+    top: 25px;
 }
 .whisper {
     right: 20px;
     position: absolute;
-    bottom: 80px;
+    top: 5px;
 }
 .social {
     position: absolute;
     bottom: 12px;
     background: transparent;
-    right: 15px;
+    right: 10px;
 }
 .topnav {
     background-color: red;
@@ -62,8 +64,39 @@
     background-color: brown;
   }
   #menu {
-      background: url("../img/night.webp");
+      background: url("../img/aurora.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      padding: 150px;
+      padding: 30px;
+      top: 5px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  .offer {
+    display:none;
+    position: absolute;
+    top: 0;width: 50%;height: 50%;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+  }
+  .offer p{
+    border: 1px solid #fff;
+    height: 80%;width: 80%;
+    display: flex; justify-content: center;
+    align-items: center; color: #fff;
+    font-size: medium; text-transform: uppercase;
+    background: lightblue;
   }
