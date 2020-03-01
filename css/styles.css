@@ -1,13 +1,14 @@
 #topcont {
-    background: url("../img/pizzalogo.jpg");
+    background: url("../img/pizzalogo.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     padding: 235px;
 }
 .head:hover {
-    text-decoration: underline;
     font-style: italic;
+    color: black;
+    font-size: 48px;
 }
 .social {
     position: absolute;
@@ -92,7 +93,7 @@
   .dropbtn {
     background-color: red;
     color: white;
-    padding: 16px;
+    padding: 8px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -124,4 +125,13 @@
   .show {
     display:block;
   }
-  
+  body {
+    font-family: 'Tangerine', serif;
+    font-size: 16px;
+  }
+  #order {
+      background: url("../img/sitly.png") fixed;
+      padding: 300px;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
