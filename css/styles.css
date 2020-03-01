@@ -150,3 +150,8 @@
       background: transparent;
       color: red;
   }
+  #contactus {
+      background: url("../img/rate.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }

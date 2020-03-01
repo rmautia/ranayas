@@ -21,5 +21,8 @@ $(document).ready(function() {
         $(this).find(".offer").hide();
     });
 
-    
+    $("#btn[type=submit]").click(function() {
+        var name = $('input#name').val();
+        alert(`Thank you ${name} for choosing Rayanas pizza. welcome Again.`);
+    });  
 });
