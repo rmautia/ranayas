@@ -67,8 +67,7 @@
       background: url("../img/aurora.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      padding: 30px;
-      top: 5px;
+      padding: 20px;
   }
   .row {
     display: flex;
@@ -87,16 +86,16 @@
   .offer {
     display:none;
     position: absolute;
-    top: 0;width: 50%;height: 50%;
+    top: 0;width: 100%;height: 100%;
     justify-content: center;
     align-items: center;
     word-wrap: break-word;
   }
   .offer p{
     border: 1px solid #fff;
-    height: 80%;width: 80%;
+    height: 10%;width: 30%;
     display: flex; justify-content: center;
     align-items: center; color: #fff;
     font-size: medium; text-transform: uppercase;
-    background: lightblue;
+    background: red;
   }
