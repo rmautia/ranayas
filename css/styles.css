@@ -137,7 +137,7 @@
       color: white;
   }
   #delivery {
-      background: url("../img/hgp.png");
+      background: url("../img/hlf.png") fixed;
       padding: 10%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -151,7 +151,7 @@
       color: red;
   }
   #contactus {
-      background: url("../img/feed.png");
+      background: url("../img/reed.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
   }
