@@ -130,8 +130,23 @@
     font-size: 16px;
   }
   #order {
-      background: url("../img/sitly.png") fixed;
-      padding: 300px;
+      background: url("../img/siti.jpg") fixed;
+      padding: 25px;
       background-size: cover;
       background-repeat: no-repeat;
+      color: white;
+  }
+  #delivery {
+      background: url("../img/delivery.png");
+      padding: 10%;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .custom-select {
+      background: transparent;
+      color: red;
+  }
+  .form-control {
+      background: transparent;
+      color: red;
   }
