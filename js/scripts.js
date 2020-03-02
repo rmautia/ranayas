@@ -428,8 +428,8 @@ $(".deliver").click(function () {
     $('.summary').slideUp();
     $('#list').slideUp();
     $('.summary').text("Provide location details").slideDown();
-    $('.deliver').hide(1000);
-    $('.delivernot').hide(1000);
+    $('.deliver').hide();
+    $('.delivernot').hide();
     $('.cdata-overlay').slideToggle();
     
 });
@@ -446,7 +446,7 @@ $("#ger").click(function () {
 
 //For self pick
 $(".delivernot").click(function () {
-    alert("your order has been placed successfully. please proceed to counter number 15 for self collection")
+    alert("your order has been placed successfully. please proceed to counter number 15 for self collection. Thank you for your purchase.")
 
 });
 $(function () {

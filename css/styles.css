@@ -171,5 +171,10 @@
     background: url("../img/delivery.png") fixed;
     background-size: cover;
     background-repeat: no-repeat;
-
+}
+.deliver {
+    display: none;
+}
+.delivernot {
+    display: none;
 }
