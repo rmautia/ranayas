@@ -446,7 +446,7 @@ $("#ger").click(function () {
 
 //For self pick
 $(".delivernot").click(function () {
-    alert("your order has been placed successfully")
+    alert("your order has been placed successfully. please proceed to counter number 15 for self collection")
 
 });
 $(function () {
