@@ -168,6 +168,8 @@
    background: transparent;
 }
 #sum-order {
-    background-color: red;
-    padding: 50px;
+    background: url("../img/delivery.png") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
