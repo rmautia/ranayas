@@ -2,7 +2,7 @@
 [Check it out](https://rmautia.github.io/ranayas/)
 
 ## Description.
-This is a website of a Pizza Outlet Incorporated as Rayana's Pizza. It contains the varieties of Pizza available on a fropdown menu, a section for special offers, provision to make an order with option for delivery and an interactive segment where clients can give feedback to the customer service team. Enjoy.
+This is a website of a Pizza Outlet Incorporated as Rayana's Pizza. It contains the varieties of Pizza available on a Dropdown menu, a section for special offers, provision to make an order with option for delivery and an interactive segment where clients can give feedback to the customer service team. Enjoy.
 
 ## Author.
  > Raphael Nyangenya
