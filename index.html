@@ -158,35 +158,34 @@
     </div>
   </div>
 
-  <div class="summary" id="sum-order">
+  <div class="order-summary text-white" id="sum-order">
     <h1 class="text-center" id="summary">Receipt</h1>
-    <h2 class="text-center summary">Hurray! your order is as follows:</h2>
+    <h2 class="text-center summary">confirm selections:</h2>
     <ol id="list" class="text-center sum">
     </ol>
 
 
-    <div class="cdata-overlay" id="delivery">
-        <div class="customerdata row">
-            <div class="col-sm-3"></div>
-            <form action="" class="form-group col-sm-6 data">
-                <input type="text" class="form-control cdata" placeholder="Enter Full Name:">
-                <input type="text" class="form-control cdata" placeholder="Enter Telephone Number: ">
-                <input type="text" class="form-control cdata" placeholder="Mobile Number: ">
-                <input type="text" class="form-control cdata" placeholder="Enter your Physical Address: ">
-                <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
-            </form>
+    <div class="cdata-overlay">
+      <div class="customerdata row">
+          <div class="col-sm-3"></div>
+          <form action="" class="form-group col-sm-6 data">
+              <input type="text" class="form-control cdata" placeholder="Enter your Name:" id="mane">
+              <input type="text" class="form-control cdata" placeholder="Enter your address " id="address">
+              <input type="text" class="form-control cdata" placeholder="Enter street name: " id="street">
+              <button class="btn bg-info text-center d-block mx-auto go">Enter</button>
+          </form>
 
-            <div class="col-sm-3"></div>
-        </div>
-    </div>
-    <div class="d-block mx-auto text-center" id="enquiry">
-        <button class='deliver'>Make Delivery</button>
-        <button class='delivernot'>Pick Up</button>
-    </div>
+          <div class="col-sm-3"></div>
+      </div>
+  </div>
+  <div class="d-block mx-auto text-center" id="delivery">
+      <button class='deliver'>Request Delivery</button>
+      <button class='delivernot'>Pick Up</button>
+  </div>
 </div>
 
 <div class="container-fluid text-white text-center" id="contactus">
-  <h1>We Value your Feedback. <br> Reach out to us</h1>
+  <h1 class="feedback">We Value your Feedback. <br> Reach out to us</h1>
   <form action="https://gmail.us4.list-manage.com/subscribe/post?u=dc71bf1dd7cdde2c9b9cae4fa&amp;id=c19abf10a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div class="form-group row" >
       <input type="text" class="form-control m-2 col-sm-5" placeholder="Name..." name="FNAME" id="name">

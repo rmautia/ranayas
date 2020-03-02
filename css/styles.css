@@ -153,9 +153,20 @@
       background: url("../img/reed.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
+      font-size: 12px;
+      padding: 5px;
   }
   .bton {
     padding: 6px;
     color: white;
     background:blue;
   }
+.feedback {
+    font-size: 16px;
+}
+#delivery {
+   background: transparent;
+}
+#sum-order {
+    background-color: red;
+}

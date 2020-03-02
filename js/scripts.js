@@ -407,8 +407,8 @@ $(document).ready(function() {
     let newOrder = order(flavour, size, crust, topping, number, totalPrice);
     console.log(newOrder); 
 
-    //Instructions
-    $('.summary').slideDown(2000);
+    //on placing order
+    $('.summary').slideDown(1000);
     $('.cdata-overlay').slideUp();
     $('#list').slideDown();
     $('.deliver').show(1000);
@@ -423,14 +423,23 @@ $(document).ready(function() {
         + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
 });
 
-//to order delivery
+//to request delivery
 $(".deliver").click(function () {
     $('.summary').slideUp();
     $('#list').slideUp();
     $('.summary').text("Provide location details").slideDown();
     $('.deliver').hide(1000);
     $('.delivernot').hide(1000);
-    $('.cdata-overlay').slideDown();
+    $('.cdata-overlay').show();
+    
+});
+//on pressing enter
+$(".btn").click(function () {
+    var name = $('input#mane').val();
+    var address = $('input#address').val();
+    var street = $('input#street').val();
+    alert(`Thank you ${name}. your order will be delivery to ${address}, ${street} street`)
+
 });
 
 
