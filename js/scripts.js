@@ -434,11 +434,12 @@ $(".deliver").click(function () {
     
 });
 //on pressing enter
-$(".btn").click(function () {
+$("#ger").click(function () {
     var name = $('input#mane').val();
     var address = $('input#address').val();
     var street = $('input#street').val();
     alert(`Thank you ${name}. your order will be delivery to ${address}, ${street} street`)
+    
 
 });
 
