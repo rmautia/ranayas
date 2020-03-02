@@ -86,9 +86,8 @@
     border: 1px solid #fff;
     height: 10%;width: 30%;
     display: flex; justify-content: center;
-    align-items: center; color: #fff;
-    font-size: medium; text-transform: uppercase;
-    background: red;
+    align-items: center; color: blue;
+    background:red;
   }
   .dropbtn {
     background-color: red;
@@ -155,9 +154,14 @@
       background-repeat: no-repeat;
       background-size: cover;
   }
-  ..bton {
-    border: 2px solid red;
+  .bton {
     padding: 6px;
     color: white;
-    background: red;
+    background:blue;
+  }
+  #enquiry {
+      background-color: red;
+  }
+  .sum-order {
+      background-color: greenyellow;
   }
