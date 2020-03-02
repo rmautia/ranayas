@@ -430,7 +430,7 @@ $(".deliver").click(function () {
     $('.summary').text("Provide location details").slideDown();
     $('.deliver').hide(1000);
     $('.delivernot').hide(1000);
-    $('.cdata-overlay').slideUp();
+    $('.cdata-overlay').slideToggle();
     
 });
 //on pressing enter
