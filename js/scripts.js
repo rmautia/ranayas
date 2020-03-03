@@ -438,7 +438,7 @@ $("#ger").click(function () {
     var name = $('input#mane').val();
     var address = $('input#address').val();
     var street = $('input#street').val();
-    alert(`Thank you ${name}. your order will be delivery to ${address}, ${street} street`)
+    alert(`Thank you ${name}. your order will be delivery to ${address}, ${street} street. KIndly note you will be charged Kshs. 200 for the delivery.`)
     
 
 });
